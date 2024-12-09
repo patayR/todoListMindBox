@@ -1,0 +1,15 @@
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 68px;
+    width: 570px;
+    border: 1px solid #F5F5F5;
+    background-color: #fff;
+    font-family: "Caveat", cursive;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: lightgrey;
+}

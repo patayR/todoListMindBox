@@ -1,0 +1,69 @@
+* {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.todo-app {
+  margin-top: 20px;
+}
+
+.todo-title {
+  font-size: 50px;
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(96, 200, 226)
+}
+
+.todo-input input{
+  font-family: "Delius Swash Caps", cursive;
+  font-size: 20px;
+  margin-top: 20px;
+  height: 68px;
+  width: 566px;
+  border: 1px solid #F5F5F5;
+  outline: none;
+}
+
+.todo-footer {
+  display: flex;
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid #F5F5F5;
+  width: 570px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.filter-buttons span {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+  color: #555;
+}
+
+.filter-buttons span:hover {
+  color: #000;
+}
+
+.filter-buttons span.active {
+  font-weight: bold;
+  color: #007BFF;
+}
+
+.clear-completed {
+  cursor: pointer;
+  color: #FF5733;
+  font-weight: bold;
+}
+
+.clear-completed:hover {
+  text-decoration: underline;
+}
